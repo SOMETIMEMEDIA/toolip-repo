@@ -960,3 +960,470 @@ a.aktualnosci_a:hover
         letter-spacing:0px;
     }
 }
+
+/* Media queries *
+================================================== */
+
+/* Large desktop */
+@media (min-width: 1200px) {
+  .desktop{
+    display: block;
+  }
+  .mobile{
+    display: none;
+  }
+  #nav_toggle{
+    display: none;
+  }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  *{letter-spacing: 1px;}
+  .mobile{display: none;}
+  #header,
+  #main,
+  #footer_up,
+  #footer_down_text,
+  #top_container,
+  #main_subsite{
+    width: 705px;
+    margin-left: -390px;
+  }
+  #header{
+    height: 189px;
+    margin-bottom: -36px;
+    padding: 0px 36px;
+  }
+  #main{
+    margin-top: -36px;
+    padding: 36px;
+  }
+  #main_subsite{
+    padding: 0 36px 36px 36px;
+  }
+  #logo{
+    width: 137px;
+    height: auto;
+    margin-top: 20px;
+  }
+  #nav_bar{
+    height: 68px;
+    margin-top: 20px;
+  }
+  .nav_button,
+  .nav_button_active{
+    font-size: 15px;
+    padding: 25px 10px;
+  }
+  #nav_toggle{
+    display: none;
+  }
+  .slider_button{
+    height: 16px;
+    width: 16px;
+  }
+  #slider_arrow_left,
+  #slider_arrow_right{
+    width: 32px;
+    margin-top: -36px;
+  }
+
+  #main_left{
+    padding-right: 50px;
+    width: 380px;
+  }
+  .main_button{
+    margin-bottom: 50px;
+  }
+  .main_arrow{
+    margin: 30px 21px 30px 0px;
+    width: 14px;
+  }
+  .main_title{
+    font-size: 54px;
+    line-height: 48px;
+  }
+  #main_right{
+    width: 275px;
+  }
+  #right_menu_title,
+  #right_menu_title2{
+    width: 233px;
+    padding: 21px;
+    margin-bottom: 15px;
+  }
+  .right_menu_title,
+  .right_menu_title2{
+    font-size: 18px;
+  }
+  #right_menu_box{
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+  }
+  #right_menu_box2{
+    height: 240px;
+  }
+  .right_menu_box2_tekst {
+    font-size: 12px;
+  }
+  #footer_up{
+    padding: 27px 36px;
+  }
+  .footer_nav_button{
+    font-size: 12px;
+  }
+  #footer_down_text{
+    padding: 21px 36px;
+    font-size: 12px;
+  }
+  #top{
+    height: 115px;
+  }
+  #top_container{
+    padding: 55px 36px 0 36px;
+  }
+  #top_title{
+    font-size: 33px;
+  }
+  #bread_crumbs{
+    font-size: 14px;
+    padding: 16px 0px;
+    margin: 32px 0px;
+  }
+  .text_offer_box{
+    padding: 15px 0;
+  }
+  .main_text_left_offer,
+  .main_text_right_offer{
+    line-height: 16px;
+    padding: 4px 0;
+  }
+  .main_text_left_offer{}
+  .main_text_right_offer{
+    width: 260px;
+  }
+  .main_text_left_offer,
+  .main_text_left_offer_first{
+    width: 32%;
+  }
+  .main_text_right_offer,
+  .main_text_right_offer_first{
+    width: 68%;
+  }
+  .aktualnosc{
+    padding: 23px 0 7px 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .aktualnosci_tytul{
+    font-size: 23px;
+  }
+  .big_title{
+    font-size: 37px;
+  }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  /*body{overflow-x: hidden;}*/
+  *{letter-spacing: 1px;}
+  .mobile{
+    display: block;
+  }
+  .desktop{
+    display: none;
+  }
+  #header,
+  #main,
+  #footer_up,
+  #footer_down_text,
+  #top_container,
+  #main_subsite{
+    width: 398px;
+    margin-left: -235px;
+    clear: left;
+  }
+  #header{
+    height: 192px;
+    margin-bottom: -36px;
+    padding: 0px 36px;
+    z-index: 9;
+  }
+  #nav_bar{
+    height: auto;
+    margin-top: 20px;
+  }
+  #nav_dropdown{
+    height: auto;
+    display: none;
+  }
+  #nav_dropdown .nav_button{
+    border-top: 1px solid white;
+  }
+  .nav_button,
+  .nav_button_active{
+    font-size: 15px;
+    padding: 25px 0;
+    text-align: center;
+    width: 100%;
+  }
+  #nav_toggle{
+    display: block;
+  }
+  #main{
+    margin-top: -36px;
+    padding: 36px;
+  }
+  #main_subsite{
+    padding: 0 36px 36px 36px;
+  }
+  #logo{
+    width: 137px;
+    height: auto;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    padding-left: 50%;
+    margin-left: -70px;
+  }
+  #mobile_banner{
+    background-image: url(../img/banner_tablet.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+    display: block;
+    float: left;
+    height: 360px;
+    width: 100%;
+  }
+  #main_left,
+  #main_right{
+    padding-right: 50px;
+    width: 380px;
+  }
+  .main_button{
+    margin-bottom: 50px;
+  }
+  .main_arrow{
+    margin: 30px 21px 30px 0px;
+    width: 14px;
+  }
+  .main_title{
+    font-size: 54px;
+    line-height: 48px;
+  }
+  #right_menu_title,
+  #right_menu_title2{
+    width: 317px;
+    padding: 21px 42px 21px 21px;
+    margin-bottom: 15px;
+  }
+  #right_menu_box{
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+  }
+  #right_menu_box_aktualnosci,
+  #tel_box{
+    display: none;
+  }
+  #right_menu_box2{
+    height: 200px;
+  }
+  .right_menu_title,
+  .right_menu_title2{
+    font-size: 18px;
+  }
+  #footer_up{
+    padding: 27px 36px;
+  }
+  .footer_nav_button{
+    font-size: 12px;
+  }
+  .mobile_button{
+    padding: 20px 0;
+    float: left;
+    letter-spacing: 2px;
+    width: 33%;
+    text-align: center;
+  }
+  #footer_down_text{
+    padding: 21px 36px;
+    font-size: 12px;
+  }
+  #top{
+    height: 115px;
+  }
+  #top_container{
+    padding: 55px 36px 0 36px;
+  }
+  #top_title{
+    font-size: 33px;
+  }
+  #bread_crumbs{
+    font-size: 14px;
+    padding: 16px 0px;
+    margin: 32px 0px;
+  }
+  .text_offer_box{
+    width: 100%;
+  }  
+  .main_text_left_offer,
+  .main_text_right_offer,
+  .main_text_left_offer_first,
+  .main_text_right_offer_first{
+    line-height: 16px;
+    padding: 4px 0;
+  }
+  .main_text_left_offer,
+  .main_text_left_offer_first{
+    width: 32%;
+  }
+  .main_text_right_offer,
+  .main_text_right_offer_first{
+    width: 68%;
+  }
+  .aktualnosc{
+    padding: 23px 0 7px 0;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .aktualnosci_tytul{
+    font-size: 23px;
+  }
+  .big_title{
+    font-size: 34px;
+  }
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  *{letter-spacing: 1px;}
+  .mobile{
+    display: block;
+  }
+  .desktop{
+    display: none;
+  }
+  #header, 
+  #main, 
+  #footer_down_text,
+  #top_container,
+  #main_subsite{
+    margin-left: -50%;
+    padding: 0 3%;
+    width: 94%;
+  }
+  #header{
+    height: auto;
+    margin-bottom: 0;
+  }
+  #logo{
+    width: 137px;
+    height: auto;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    padding-left: 50%;
+    margin-left: -70px;
+  }
+  #mobile_banner{
+    background-image: url(../img/banner_mobile.jpg);
+    height: 130px;
+    margin-top: 6px;
+  }
+  #nav_bar{
+    margin-top: 1px;
+    height: 100%;
+  }
+  #nav_dropdown{
+    height: auto;
+    display: none;
+  }
+  #nav_toggle{}
+  .nav_button,
+  .nav_button_active{
+    font-size: 14px;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 20px 0;
+  }
+  #main{
+    margin-top: 25px;
+  }
+  #main_left{
+    width: 100%;
+    padding-right: 0;
+  }
+  .main_title{
+    font-size: 36px;
+    line-height: 32px;
+  }
+  .main_arrow{
+    margin: 15px;
+  }
+  .main_button{
+    margin-bottom: 30px;
+  }
+  .mobile_button{
+    padding: 20px 0;
+    float: left;
+    letter-spacing: 2px;
+    width: 33%;
+    text-align: center;
+  }
+  #footer_down_text{
+    font-size: 12px;
+    text-align: left;
+    letter-spacing: 0;
+    padding: 3%;
+  }
+  #top {
+    height: 80px;
+    margin-top: 6px;
+  }
+  #top_title {
+    font-size: 31px;
+  }
+  #right_menu_box2{
+    display: none;
+  }
+  #right_menu_title, 
+  #right_menu_title2 {
+    width: 86%;
+    padding: 5% 8% 5% 6%;
+  }
+  #main_left, 
+  #main_right {
+    padding-right: 0;
+    width: 100%;
+  }
+  .right_menu_button{
+    margin-left: 5%;
+  }
+  #top_container{
+    padding: 5% 3%;
+  }
+  #bread_crumbs {
+    font-size: 13px;
+    padding: 12px 0px;
+    margin: 24px 0px;
+  }
+  .main_text_left_offer,
+  .main_text_right_offer,
+  .main_text_left_offer_first,
+  .main_text_right_offer_first{
+    line-height: 16px;
+    font-size: 12px;
+    padding: 4px 0;
+  }
+  .main_text_left_offer,
+  .main_text_left_offer_first{
+    width: 32%;
+  }
+  .main_text_right_offer,
+  .main_text_right_offer_first{
+    width: 68%;
+  }
+
+
+
+}
