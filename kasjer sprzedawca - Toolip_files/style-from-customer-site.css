@@ -1385,7 +1385,7 @@ a.aktualnosci_a:hover
     font-size: 31px;
   }
   #right_menu_box2{
-    display: none;
+   /* display: none;*/
   }
   #right_menu_title, 
   #right_menu_title2 {
